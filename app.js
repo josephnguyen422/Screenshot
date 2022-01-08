@@ -27,35 +27,3 @@ var fs = require('fs'); /*needed to read txt files */
 })();
 
 
-
-
-
-
-
-
-
-   
-/* try{
-        const options = {
-            path: 'images/screenshot'+i+'.png', /*Saves the images at this locaiton and adds a number to the name of each screenshot 
-            fullPage: true,
-        };
-        const url = textArray[i];    
-        await page.goto(url); /*Go to the website on the list in the txt file 
-        await page.screenshot(options); /*Take a screenshot using your settings 
-        }catch(e){
-            console.log("this aint happening");
-        } 
-        
-    */
-
-
-
-
-
-
-
-
-/*it seems during the pageScreenshot function the getNum function is called so link 4 is screenshoted but it dosen't exit */
-/*due to async function nature and how we have to wait for browser to load  */
-
